@@ -1,7 +1,7 @@
 
 import express from "express";
 import { VerifyAdmin, VerifyUser } from "../utils/VerifyToken.utils.js";
-import { createRoom, deleteRoom, getAllRooms, getRoom, updateRoom, UpdateRoomAvailability } from "../src/controllers/rooms.controller.js";
+import { createRoom, deleteRoom, getAllRooms, getRoom, updateRoom, UpdateRoomAvailability } from "../src/Controllers/rooms.controller.js";
 const router = express.Router()
 
 router.post("/:hotelid", VerifyAdmin, createRoom)

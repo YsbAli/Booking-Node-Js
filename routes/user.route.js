@@ -66,7 +66,7 @@ export default router;
 
 import express from "express";
 
-import { deleteUser, getAllUsers, getUsers, updateUsers } from "../src/controllers/users.controller.js";
+import { deleteUser, getAllUsers, getUsers, updateUsers } from "../src/Controllers/users.controller.js";
 
 import { VerifyAdmin, VerifyToken, VerifyUser } from "../utils/VerifyToken.utils.js";
 
