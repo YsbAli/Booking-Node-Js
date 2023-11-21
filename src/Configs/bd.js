@@ -7,7 +7,7 @@ import mongoose from 'mongoose'
 import dontenv from 'dotenv'
 dontenv.config()
 
-const MONGOURL = process.env.MONGOURL
+const MONGOURL = process.env.MONGOURL || "mongodb+srv://yousub:yousub_123@cluster0.zo2wpef.mongodb.net/booking?retryWrites=true&w=majority"
 
 
 const ConnectDB = async () => {
