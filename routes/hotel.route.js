@@ -3,7 +3,7 @@ import express from 'express'
 
 const router = express.Router()
 
-import { createHotels, updateHotels, deleteHotels, getHotels, getAllHotels, CityHotels, CountByType, GetHotelRooms } from "../src/controllers/hotels.controller.js"
+import { createHotels, updateHotels, deleteHotels, getHotels, getAllHotels, CityHotels, CountByType, GetHotelRooms } from "../src/Controllers/hotels.controller.js"
 
 import { VerifyAdmin, VerifyUser, } from '../utils/VerifyToken.utils.js'
 
