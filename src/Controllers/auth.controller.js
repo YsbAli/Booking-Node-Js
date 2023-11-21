@@ -107,7 +107,7 @@ import { createError } from "../../utils/error.js"
 import JWT from 'jsonwebtoken'
 import dotenv from 'dotenv'
 
-const JWT_KEY = process.env.JWT_SECTER_KEY
+const JWT_KEY = process.env.JWT_SECTER_KEY || "Yousubali@1234"
 
 
 const Register = async (req, resp, next) => {

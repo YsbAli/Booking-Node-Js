@@ -17,7 +17,7 @@ import RoomRouter from './routes/room.route.js'
 
 
 const app = express()
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 3000
 
 // app.use(cors())
 app.use(cors({
