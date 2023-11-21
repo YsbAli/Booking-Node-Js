@@ -43,7 +43,7 @@ app.use("/api/rooms", RoomRouter)
 
 
 app.get("/", (req, resp) => {
-    return resp.send("Hello Home Page")
+    return resp.send("Hello Home Page!, The route are :--> api/hotels api/rooms --> to see the main api use the route /api/hotels or booking-api.yousub.live/api/hotels")
 })
 
 
